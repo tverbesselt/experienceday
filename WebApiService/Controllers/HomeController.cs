@@ -10,7 +10,7 @@ namespace WebApiService.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "CVO Experience Day";
+            ViewBag.Title = "cvo Experience Day";
 
             return View();
         }

@@ -6,6 +6,7 @@ namespace BLL
     {
         public SessieContext() : base(BLL.Properties.Settings.Default.connString)
         {
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<SessieContext>());
         }
 
 

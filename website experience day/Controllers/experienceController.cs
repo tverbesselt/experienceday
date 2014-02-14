@@ -4,15 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WebApiService.Controllers
+namespace website_experience_day.Controllers
 {
-    public class HomeController : Controller
+    public class experienceController : Controller
     {
+        //
+        // GET: /experience/
         public ActionResult Index()
         {
-            ViewBag.Title = "CVO Experience Day";
-
             return View();
         }
-    }
+	}
 }
